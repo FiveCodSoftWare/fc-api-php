@@ -1,4 +1,4 @@
-# API CATGORIA PHP MYSQL - DOCKER
+# API CATEGORIA PHP MYSQL - DOCKER
 
 Este repositorio contiene una API simple de categorías desarrollada en PHP que utiliza MySQL como base de datos. La API permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en una tabla de categorías.
 
