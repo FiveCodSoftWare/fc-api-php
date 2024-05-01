@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  categories_db:
+    container_name: categories_database
+    image: mysql:8.3.0
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=service123
+      - MYSQL_DATABASE=api_php
+    ports:
+      - 3308:3306
+    volumes:
+      - ./categories_mysql-db:/var/lib/mysql
+      - ./category.sql:/docker-entrypoint-initdb.d/category.sql
+volumes:
+  categories_mysql-db:

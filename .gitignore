@@ -1,0 +1,5 @@
+# Archivos y directorios específicos generados por Docker
+.dockerignore
+
+# Volumen de datos de MySQL
+categories_mysql-db/

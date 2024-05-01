@@ -1,0 +1,6 @@
+CREATE TABLE CATEGORY (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(150) NOT NULL,
+    descripcion TEXT,
+    estado BIT(1) NOT NULL DEFAULT 1
+);
